@@ -1,8 +1,5 @@
 #include "lists.h"
 #include <stddef.h>
-
-/* Definition of listint_t */
-typedef struct listint_s
 {
 int n;
 struct listint_s *next;
@@ -21,6 +18,6 @@ while (h != NULL)
 {
 fig++;
 h = h->next;
+return (fig);
 }
-return fig;
 }

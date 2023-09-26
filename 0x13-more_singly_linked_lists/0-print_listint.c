@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_listint - prints all necessary elements 
+ * print_listint - prints all necessary elements
  * @h: linked list of type listint_t to print
  *
  * Return: figures of nodes
@@ -15,5 +15,5 @@ printf("%d\n", h->n);
 h = h->next;
 fig++;
 }
-return fig;
+return (fig);
 }
